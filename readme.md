@@ -8,3 +8,7 @@ This year it's Go time.
 # Runs the tests first. If they pass, runs solutions for the given day.
 run.sh day01
 ```
+
+## Day 1
+
+Easy peasy.
