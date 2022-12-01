@@ -9,23 +9,19 @@ import (
 )
 
 func caloriesPerElf(input string) []int {
-	var elves []int
-
+	elves := make([]int, 0)
 	sum := 0
+	lines := strings.Split(input, "\n")
 
-	for _, line := range strings.Split(input, "\n") {
+	for i, line := range lines {
 		line = strings.TrimSpace(line)
-		if len(line) == 0 {
+		if len(line) == 0 || i == len(lines)-1 {
 			elves = append(elves, sum)
 			sum = 0
 			continue
 		}
 		i, _ := strconv.Atoi(line)
 		sum += i
-	}
-
-	if sum > 0 {
-		elves = append(elves, sum)
 	}
 
 	sort.Sort(sort.Reverse(sort.IntSlice(elves)))
