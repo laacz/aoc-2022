@@ -8,14 +8,6 @@ import (
 	"strings"
 )
 
-func maxInt(a, b int) int {
-	if a > b {
-		return a
-	}
-
-	return b
-}
-
 func caloriesPerElf(input string) []int {
 	var elves []int
 
