@@ -12,3 +12,7 @@ run.sh day01
 ## Day 1
 
 Easy peasy.
+
+## Day 2
+
+Lemon cheasy.
