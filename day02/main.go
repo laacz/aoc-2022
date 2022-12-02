@@ -13,14 +13,19 @@ func partOne(input string) int {
 		if len(line) == 0 {
 			continue
 		}
+
+		// score the moves [1..2]
 		elf_move := -('A' - int(line[0]) - 1)
 		my_move := -('X' - int(line[2]) - 1)
 
+		// add move score to the total score
 		score += my_move
 
 		if my_move-elf_move == 1 || (my_move == 1 && elf_move == 3) {
+			// we won
 			score += 6
 		} else if my_move == elf_move {
+			// draw
 			score += 3
 		}
 	}
@@ -36,6 +41,8 @@ func partTwo(input string) int {
 		if len(line) == 0 {
 			continue
 		}
+
+		// score the opponent's move [1..2]
 		elf_move := -('A' - int(line[0]) - 1)
 
 		switch line[2:3] {
@@ -58,6 +65,7 @@ func partTwo(input string) int {
 			score += 3
 		}
 
+		// add move score to the total score
 		score += my_move
 	}
 
