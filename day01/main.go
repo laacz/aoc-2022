@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
+	"os"
 	"sort"
 	"strconv"
 	"strings"
@@ -38,7 +38,7 @@ func partTwo(elves []int) int {
 }
 
 func main() {
-	data, err := ioutil.ReadFile("input.txt")
+	data, err := os.ReadFile("input.txt")
 
 	if err != nil {
 		panic(fmt.Errorf("while reading %s, got %v", "input.txt", err))
