@@ -15,4 +15,8 @@ Easy peasy.
 
 ## Day 2
 
-Lemon cheasy.
+Lemon squeezy.
+
+## Day 3
+
+Nothing to see here.
