@@ -24,3 +24,7 @@ Nothing to see here.
 ## Day 4 
 
 Same here.
+
+## Day 5
+
+Straightforward, until I got to the second part. In certain cases Go modifies target slice, instead of copying. So I had to resort to moving crates one-by one.
