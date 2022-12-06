@@ -28,3 +28,7 @@ Same here.
 ## Day 5
 
 Straightforward, until I got to the second part. In certain cases Go modifies target slice, instead of copying. So I had to resort to moving crates one-by one.
+
+## Day 6 
+
+Shortest solution to date. Guessed the second part's task, so both parts use the same implementation.
