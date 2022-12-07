@@ -32,3 +32,7 @@ Straightforward, until I got to the second part. In certain cases Go modifies ta
 ## Day 6 
 
 Shortest solution to date. Guessed the second part's task, so both parts use the same implementation.
+
+## Day 7
+
+Easy, but had to think about the right approach longer than I'd like. 
