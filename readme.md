@@ -36,3 +36,8 @@ Shortest solution to date. Guessed the second part's task, so both parts use the
 ## Day 7
 
 Easy, but had to think about the right approach longer than I'd like. 
+
+## Day 8
+
+Got stuck on failing tests, because missed that first lines do not count.
+
