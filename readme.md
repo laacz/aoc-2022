@@ -44,3 +44,7 @@ Got stuck on failing tests, because missed that first lines do not count.
 ## Day 9
 
 This took some while, because I messed up X and Y coordinates in one place. This was a relatively easy one nonetheless.
+
+## Day 10
+
+A few off by one one errors, but this was sweet. 
