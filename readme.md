@@ -48,3 +48,7 @@ This took some while, because I messed up X and Y coordinates in one place. This
 ## Day 10
 
 A few off by one one errors, but this was sweet. 
+
+## Day 11
+
+Integers have a nasty habit of overflowing. After a half an hour or so sorted that out.
