@@ -41,3 +41,6 @@ Easy, but had to think about the right approach longer than I'd like.
 
 Got stuck on failing tests, because missed that first lines do not count.
 
+## Day 9
+
+This took some while, because I messed up X and Y coordinates in one place. This was a relatively easy one nonetheless.
