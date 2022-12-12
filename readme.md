@@ -52,3 +52,7 @@ A few off by one one errors, but this was sweet.
 ## Day 11
 
 Integers have a nasty habit of overflowing. After a half an hour or so sorted that out.
+
+## Day 12
+
+Graphs. Not a fan. Took some while.
