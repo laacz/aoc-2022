@@ -20,23 +20,6 @@ func max(a, b int) int {
 	return b
 }
 
-func sign(a int) int {
-	if a > 0 {
-		return 1
-	}
-	if a < 0 {
-		return -1
-	}
-	return 0
-}
-
-func abs(a int) int {
-	if a < 0 {
-		return -a
-	}
-	return a
-}
-
 type Point struct {
 	X int
 	Y int
@@ -103,7 +86,7 @@ func partOne(input string) int {
 	return ret
 }
 
-func fallless(m *map[Point]rune, floor int) bool {
+func isFalless(m *map[Point]rune, floor int) bool {
 	x := 500
 	y := 0
 loop:
@@ -142,7 +125,7 @@ func partTwo(input string) int {
 	floor += 2
 
 	for {
-		if fallless(&m, floor) {
+		if isFalless(&m, floor) {
 			break
 		}
 		ret += 1
