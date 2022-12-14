@@ -60,3 +60,7 @@ Graphs. Not a fan. Took some while.
 ## Day 13
 
 Oh, this one would be so much easier using a loosely typed language. Fuuuuuuu.. I don't have words. Took two days, three rewrites. On the bright side, I learned a lot about `interface{}`, `reflect` package and myself.
+
+## Day 14
+
+What a relief and fun after previous day. Well, day 13 was hard only because of Go typing and me not being used to it. 
