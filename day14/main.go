@@ -86,7 +86,7 @@ func partOne(input string) int {
 	return ret
 }
 
-func isFalless(m *map[Point]rune, floor int) bool {
+func isFallless(m *map[Point]rune, floor int) bool {
 	x := 500
 	y := 0
 loop:
@@ -125,7 +125,7 @@ func partTwo(input string) int {
 	floor += 2
 
 	for {
-		if isFalless(&m, floor) {
+		if isFallless(&m, floor) {
 			break
 		}
 		ret += 1
