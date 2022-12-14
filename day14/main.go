@@ -68,18 +68,16 @@ loop:
 
 		break
 	}
+
 	(*m)[Point{x, y}] = 'o'
 	return false
 }
 
 func partOne(input string) int {
 	ret := 0
-
 	m := parseInput(input)
-	for {
-		if isInfiniteFall(&m) {
-			break
-		}
+
+	for !isInfiniteFall(&m) {
 		ret += 1
 	}
 
@@ -102,7 +100,6 @@ loop:
 				continue loop
 			}
 		}
-
 		if y == 0 {
 			return true
 		}
@@ -115,19 +112,15 @@ loop:
 
 func partTwo(input string) int {
 	ret := 0
-
 	m := parseInput(input)
+
 	floor := 0
 	for p := range m {
 		floor = max(floor, p.Y)
 	}
 
 	floor += 2
-
-	for {
-		if isFallless(&m, floor) {
-			break
-		}
+	for !isFallless(&m, floor) {
 		ret += 1
 	}
 
