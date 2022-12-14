@@ -56,3 +56,7 @@ Integers have a nasty habit of overflowing. After a half an hour or so sorted th
 ## Day 12
 
 Graphs. Not a fan. Took some while.
+
+## Day 13
+
+Oh, this one would be so much easier using a loosely typed language. Fuuuuuuu.. I don't have words. Took two days, three rewrites. On the bright side, I learned a lot about `interface{}`, `reflect` package and myself.
