@@ -70,3 +70,8 @@ What a relief and fun after previous day. Well, day 13 was hard only because of 
 First part was easy enough. 
 
 Second part was a bit different. First - we generate a list of all lines at manhattan distance + 1. Then we check if any of these lines intersect (well, we don't but still resulting list of points is not huge). If they do, we add the point to the list of possible candidates for a place to have the beacon at. Then we just iterate over all these points and find the first one which is not covered by any sensor.
+
+## Day 16
+
+On the fourth day I gave up. Will have to revisit this one and theory behind it. Graphs are my nemesis.
+
