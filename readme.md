@@ -60,7 +60,8 @@ Graphs. Not a fan. Took some while.
 
 ## Day 13
 
-Oh, this one would be so much easier using a loosely typed language. Fuuuuuuu.. I don't have words. Took two days, three
+Oh, this one would be so much easier using a loosely typed language. Fuuuuuuu... I don't have words. Took two days,
+three
 rewrites. On the bright side, I learned a lot about `interface{}`, `reflect` package and myself.
 
 ## Day 14
@@ -84,3 +85,8 @@ On the fourth day I gave up. Will have to revisit this one and theory behind it.
 
 Part 1 was very sweet and I enjoyed that a lot. Part 2, however, was not fun at all. Although it was fairly obvious that
 what we're looking for is a cycle, actual approach and with that its solution took me several attempts.
+
+## Day 18
+
+After previous few days this was pure joy. For the first part I created map of all cubes, and then counted sides,
+subtracting adjoining ones. For the second part implemented simple stack-based flood-fill. 
