@@ -103,3 +103,10 @@ blueprint are not exceeded.
 Those days, when tests pass, but actual input doens't generate an acceptable result. The culprit was a newline at the 
 end of input data. Second part was a breeze after that. Took my time to refactor into smaller chunks to encapsulate 
 stuff and avoid func name collisions with builtins.
+
+## Day 21
+
+First part was easily by evaluating all yelled at monkeys in a loop, until there is no more unknown numbers. Second part
+was tricky, since approach had to be completely different. When parsing, we mark a path from `humn` to `root`. Then we 
+solve for that, using existing solution from the part 1. I was afraid about the stack (it's recursive), but it turned
+out that solution path is not that long. Longest was to figure out the right approach for the revese solver.
