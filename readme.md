@@ -110,3 +110,13 @@ First part was easily by evaluating all yelled at monkeys in a loop, until there
 was tricky, since approach had to be completely different. When parsing, we mark a path from `humn` to `root`. Then we 
 solve for that, using existing solution from the part 1. I was afraid about the stack (it's recursive), but it turned
 out that solution path is not that long. Longest was to figure out the right approach for the revese solver.
+
+## Day 22
+
+This is Spartaaaaaa! Part one was easy. Par two might have been the finneckiest AoC day so far. This implementation
+is the fourth one after trying to adapt first part's solution, then solving generic folding and wrap-around solution, 
+then the graph approach. As a result I just cut two cubes (test and actual input), and hard-coded all the wrapping 
+rules. The hardest part, actually, was the debugging process. There were typos, there were just plain wrong definitions,
+and there was the case of Down->Right wrapping, which wrapped differently for the test and for the actual input. 
+
+So here we go.
