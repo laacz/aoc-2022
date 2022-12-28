@@ -96,4 +96,10 @@ subtracting adjoining ones. For the second part implemented simple BFS-based flo
 This took some while to figure out. BFS might not be the fastest solution. Initially part 1 testcase took around a
 minute. After pruning branches which get first geode later than others, got it down to .12s. For the second part this 
 didn't work well in terms of performance, so I added one more pruning step - check if maximum amount of bots per 
-blueprint are not exceeded.  
+blueprint are not exceeded.
+
+## Day 20
+
+Those days, when tests pass, but actual input doens't generate an acceptable result. The culprit was a newline at the 
+end of input data. Second part was a breeze after that. Took my time to refactor into smaller chunks to encapsulate 
+stuff and avoid func name collisions with builtins.
