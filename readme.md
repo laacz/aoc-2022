@@ -126,3 +126,8 @@ So here we go.
 Straightforward until the point when tests pass, but actual input doesn't. This happened with part 2. The reason for 
 that was stupid logic error. I was annoyed by myself to the point where I did not do any performance refactoring, as
 opposed to previous days.
+
+## Day 24
+
+Nice and simple flood-fill with a catch. Catch was in that a blizzard must clear the parth, so you can move there 
+again. Second part required no major modifications - just the ability to define start and end points.
