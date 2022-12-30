@@ -120,3 +120,9 @@ rules. The hardest part, actually, was the debugging process. There were typos, 
 and there was the case of Down->Right wrapping, which wrapped differently for the test and for the actual input. 
 
 So here we go.
+
+## Day 23
+
+Straightforward until the point when tests pass, but actual input doesn't. This happened with part 2. The reason for 
+that was stupid logic error. I was annoyed by myself to the point where I did not do any performance refactoring, as
+opposed to previous days.
